@@ -5,4 +5,11 @@
     <Project Path="Infrastructure/Infrastructure.csproj" Id="096102d4-4ef6-4ac3-b0a5-4a4d7374e987" />
     <Project Path="WebAPI/WebAPI.csproj" Id="d512ba0e-bc2e-44fd-9fad-249a8debcbf5" />
   </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="API.IntegrationTests/API.IntegrationTests.csproj" Id="6e6fe477-bcf8-49df-8880-829f2289cd18" />
+    <Project Path="Application.IntegrationTests/Application.IntegrationTests.csproj" Id="7117d67a-26c1-408c-8b2b-6af325b9ad44" />
+    <Project Path="Application.UnitTests/Application.UnitTests.csproj" Id="b62b46b1-49c1-4d00-a55a-6eb13dcad5b0" />
+    <Project Path="Domain.UnitTests/Domain.UnitTests.csproj" Id="3b88b968-fbbf-4974-b020-c9b29ad3b8ba" />
+    <Project Path="Infrastructure.IntegrationTests/Infrastructure.IntegrationTests.csproj" Id="e35e3b03-525f-4a7e-860c-7db172d69b3c" />
+  </Folder>
 </Solution>
