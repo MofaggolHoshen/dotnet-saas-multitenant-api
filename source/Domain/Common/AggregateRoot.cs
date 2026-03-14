@@ -1,13 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Domain.Events;
 
 namespace Domain.Common;
 
 public abstract class AggregateRoot : BaseEntity
 {
     private readonly List<IDomainEvent> _domainEvents = new();
-    public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents.AsReadOnly();
-    protected void AddDomainEvent(IDomainEvent @event) { }
-    public void ClearDomainEvents() { }
+    public IReadOnlyCollection<IDomainEvent> DomainEvents => _domainEvents.AsReadOnly();
+
+    protected AggregateRoot(Guid? id = null) : base(id)
+    {
+    }
+
+    protected void AddDomainEvent(IDomainEvent @event)
+    {
+        if (@event is null)
+        {
+            throw new ArgumentNullException(nameof(@event));
+        }
+
+        _domainEvents.Add(@event);
+    }
+
+    public void ClearDomainEvents() => _domainEvents.Clear();
 }
