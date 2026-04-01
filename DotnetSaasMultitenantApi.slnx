@@ -1,4 +1,12 @@
 <Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/Concepts/">
+    <File Path="../dotnet-saas-multitenant-api-docs/Concepts/AggregateRoot.md" />
+    <File Path="../dotnet-saas-multitenant-api-docs/Concepts/BaseEntity.md" />
+    <File Path="../dotnet-saas-multitenant-api-docs/Concepts/Error.md" />
+    <File Path="../dotnet-saas-multitenant-api-docs/Concepts/Result.md" />
+    <File Path="../dotnet-saas-multitenant-api-docs/Concepts/ValueObject.md" />
+  </Folder>
   <Folder Name="/source/">
     <Project Path="source/Application/Application.csproj" />
     <Project Path="source/Domain/Domain.csproj" />
