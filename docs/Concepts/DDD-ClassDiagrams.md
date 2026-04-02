@@ -844,14 +844,6 @@ sequenceDiagram
 | `+` | Public member |
 | `-` | Private member |
 
-### Color Coding
-
-- 🔵 **Blue** (#e1f5ff) - Foundational classes
-- 🟡 **Yellow** (#fff4e1) - Aggregate roots
-- 🟣 **Purple** (#f0e1ff) - Value objects
-- 🟢 **Green** (#e1ffe1) - Result/Success types
-- 🔴 **Red** (#ffe1e1) - Error/Exception types
-
 ---
 
 ## Key Insights from Diagrams
