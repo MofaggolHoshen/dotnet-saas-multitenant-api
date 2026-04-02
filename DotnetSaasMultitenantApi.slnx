@@ -3,6 +3,7 @@
   <Folder Name="/docs/Concepts/">
     <File Path="docs/Concepts/AggregateRoot.md" />
     <File Path="docs/Concepts/BaseEntity.md" />
+    <File Path="docs/Concepts/DDD-ClassDiagrams.md" />
     <File Path="docs/Concepts/DomainEntities.md" />
     <File Path="docs/Concepts/DomainEvents.md" />
     <File Path="docs/Concepts/DomainExceptionsAndRepositories.md" />
