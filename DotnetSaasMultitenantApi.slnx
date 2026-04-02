@@ -9,7 +9,6 @@
     <File Path="docs/Phase2-DDD/DomainEvents.md" />
     <File Path="docs/Phase2-DDD/DomainExceptionsAndRepositories.md" />
     <File Path="docs/Phase2-DDD/Error.md" />
-    <File Path="docs/Phase2-DDD/Phase2-Overview.md" />
     <File Path="docs/Phase2-DDD/README.md" />
     <File Path="docs/Phase2-DDD/Result.md" />
     <File Path="docs/Phase2-DDD/ValueObject.md" />
