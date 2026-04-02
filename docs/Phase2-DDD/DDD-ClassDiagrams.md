@@ -885,7 +885,6 @@ sequenceDiagram
 - [DomainEntities](./DomainEntities.md) - Entity details
 - [ValueObjects](./ValueObjects.md) - Value object details
 - [DomainEvents](./DomainEvents.md) - Event details
-- [Phase2-Overview](./Phase2-Overview.md) - Complete overview
 
 ---
 

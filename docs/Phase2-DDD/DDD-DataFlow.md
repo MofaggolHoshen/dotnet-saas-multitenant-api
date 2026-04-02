@@ -1136,7 +1136,6 @@ flowchart LR
 
 - [**ConcreteExample-CreateUser**](./ConcreteExample-CreateUser.md) - **Step-by-step code walkthrough** ⭐
 - [DDD-ClassDiagrams](./DDD-ClassDiagrams.md) - Class structure diagrams
-- [Phase2-Overview](./Phase2-Overview.md) - Complete DDD overview
 - [DomainEntities](./DomainEntities.md) - Entity details
 - [DomainEvents](./DomainEvents.md) - Event system
 - [Application Layer README](../../source/Application/README.md) - CQRS implementation

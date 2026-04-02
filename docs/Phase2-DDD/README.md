@@ -258,9 +258,8 @@ These are the essential building blocks that everything else depends on:
 9. [Value Objects Guide](./ValueObjects.md) (30 min) - Deep dive
 10. [Domain Entities Guide](./DomainEntities.md) (30 min) - Deep dive
 11. [Domain Events](./DomainEvents.md) (30 min) - Event-driven design
-12. [Phase 2 Overview](./Phase2-Overview.md) (20 min) - See it all together
 
-**⏱️ Total Time:** ~3.5 hours
+**⏱️ Total Time:** ~3.25 hours
 
 ---
 
@@ -271,13 +270,12 @@ These are the essential building blocks that everything else depends on:
 1. **[Concrete Example: Create User](./ConcreteExample-CreateUser.md)** (20 min) - **See actual code** 💻
 2. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (10 min) - **Visual architecture** 🎨
 3. **[DDD Data Flow](./DDD-DataFlow.md)** (15 min) - **Request flows** 🔄
-4. [Phase 2 Overview](./Phase2-Overview.md) (10 min) - Architecture overview
-5. [Domain Entities](./DomainEntities.md) (20 min) - See the 4 entities
-6. [Value Objects](./ValueObjects.md) (20 min) - See the 4 value objects
-7. [Domain Events](./DomainEvents.md) (15 min) - Event patterns
-8. [Exceptions & Repositories](./DomainExceptionsAndRepositories.md) (15 min) - Infrastructure contracts
+4. [Domain Entities](./DomainEntities.md) (20 min) - See the 4 entities
+5. [Value Objects](./ValueObjects.md) (20 min) - See the 4 value objects
+6. [Domain Events](./DomainEvents.md) (15 min) - Event patterns
+7. [Exceptions & Repositories](./DomainExceptionsAndRepositories.md) (15 min) - Infrastructure contracts
 
-**⏱️ Total Time:** ~2 hours
+**⏱️ Total Time:** ~1.75 hours
 
 ---
 
@@ -314,11 +312,10 @@ These are the essential building blocks that everything else depends on:
 | [Result.md](./Result.md) | ~4 KB | Error Handling | Yes |
 | [Error.md](./Error.md) | ~3 KB | Error Types | Yes |
 
-### 📗 Comprehensive Guides (5 docs)
+### 📗 Comprehensive Guides (4 docs)
 
 | Document | Size | Topics | Diagrams |
 |----------|------|--------|----------|
-| [Phase2-Overview.md](./Phase2-Overview.md) | ~7 KB | Complete Summary | 14+ |
 | [DomainEntities.md](./DomainEntities.md) | ~15 KB | 4 Entities | 30+ |
 | [ValueObjects.md](./ValueObjects.md) | ~17 KB | 4 Value Objects | 34+ |
 | [DomainEvents.md](./DomainEvents.md) | ~17 KB | 6 Events | 35+ |
