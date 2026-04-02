@@ -1,18 +1,18 @@
 <Solution>
   <Folder Name="/docs/" />
-  <Folder Name="/docs/Concepts/">
-    <File Path="docs/Concepts/AggregateRoot.md" />
-    <File Path="docs/Concepts/BaseEntity.md" />
-    <File Path="docs/Concepts/DDD-ClassDiagrams.md" />
-    <File Path="docs/Concepts/DomainEntities.md" />
-    <File Path="docs/Concepts/DomainEvents.md" />
-    <File Path="docs/Concepts/DomainExceptionsAndRepositories.md" />
-    <File Path="docs/Concepts/Error.md" />
-    <File Path="docs/Concepts/Phase2-Overview.md" />
-    <File Path="docs/Concepts/README.md" />
-    <File Path="docs/Concepts/Result.md" />
-    <File Path="docs/Concepts/ValueObject.md" />
-    <File Path="docs/Concepts/ValueObjects.md" />
+  <Folder Name="/docs/Phase2-DDD/">
+    <File Path="docs/Phase2-DDD/AggregateRoot.md" />
+    <File Path="docs/Phase2-DDD/BaseEntity.md" />
+    <File Path="docs/Phase2-DDD/DDD-ClassDiagrams.md" />
+    <File Path="docs/Phase2-DDD/DomainEntities.md" />
+    <File Path="docs/Phase2-DDD/DomainEvents.md" />
+    <File Path="docs/Phase2-DDD/DomainExceptionsAndRepositories.md" />
+    <File Path="docs/Phase2-DDD/Error.md" />
+    <File Path="docs/Phase2-DDD/Phase2-Overview.md" />
+    <File Path="docs/Phase2-DDD/README.md" />
+    <File Path="docs/Phase2-DDD/Result.md" />
+    <File Path="docs/Phase2-DDD/ValueObject.md" />
+    <File Path="docs/Phase2-DDD/ValueObjects.md" />
   </Folder>
   <Folder Name="/source/">
     <Project Path="source/Application/Application.csproj" />
