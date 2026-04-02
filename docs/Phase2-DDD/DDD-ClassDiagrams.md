@@ -877,6 +877,7 @@ sequenceDiagram
 
 ## Related Documentation
 
+- [DDD-DataFlow](./DDD-DataFlow.md) - **Data flow diagrams** ⭐
 - [BaseEntity](./BaseEntity.md) - Entity base class
 - [AggregateRoot](./AggregateRoot.md) - Aggregate pattern
 - [ValueObject](./ValueObject.md) - Value object pattern

@@ -4,6 +4,7 @@
     <File Path="docs/Phase2-DDD/AggregateRoot.md" />
     <File Path="docs/Phase2-DDD/BaseEntity.md" />
     <File Path="docs/Phase2-DDD/DDD-ClassDiagrams.md" />
+    <File Path="docs/Phase2-DDD/DDD-DataFlow.md" />
     <File Path="docs/Phase2-DDD/DomainEntities.md" />
     <File Path="docs/Phase2-DDD/DomainEvents.md" />
     <File Path="docs/Phase2-DDD/DomainExceptionsAndRepositories.md" />

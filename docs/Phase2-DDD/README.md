@@ -234,8 +234,10 @@ These are the essential building blocks that everything else depends on:
 | Events | Domain Events | Event-driven architecture |
 | Data Access | Repository Interfaces | Persistence abstractions |
 | Errors | Exception Hierarchy | Domain exception types |
+| **Data Flow** | **Request Lifecycle** | **End-to-end flow diagrams** |
 
-**👉 [View All Class Diagrams](./DDD-ClassDiagrams.md)**
+**👉 [View All Class Diagrams](./DDD-ClassDiagrams.md)**  
+**👉 [View All Data Flow Diagrams](./DDD-DataFlow.md)** ⭐ New!
 
 ---
 
@@ -245,18 +247,20 @@ These are the essential building blocks that everything else depends on:
 
 **Recommended Path:**
 
-1. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (15 min) - **Visual overview** 🎨
-2. [Result Pattern](./Result.md) (10 min) - Understand error handling
-3. [Error](./Error.md) (5 min) - Structured errors
-4. [BaseEntity](./BaseEntity.md) (10 min) - Entity basics
-5. [ValueObject](./ValueObject.md) (10 min) - Value vs Entity
-6. [AggregateRoot](./AggregateRoot.md) (15 min) - Aggregates
-7. [Value Objects Guide](./ValueObjects.md) (30 min) - Deep dive
-8. [Domain Entities Guide](./DomainEntities.md) (30 min) - Deep dive
-9. [Domain Events](./DomainEvents.md) (30 min) - Event-driven design
-10. [Phase 2 Overview](./Phase2-Overview.md) (20 min) - See it all together
+1. **[Concrete Example: Create User](./ConcreteExample-CreateUser.md)** (25 min) - **Real code walkthrough** 💻
+2. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (15 min) - **Visual overview** 🎨
+3. **[DDD Data Flow](./DDD-DataFlow.md)** (20 min) - **Request lifecycle** 🔄
+4. [Result Pattern](./Result.md) (10 min) - Understand error handling
+5. [Error](./Error.md) (5 min) - Structured errors
+6. [BaseEntity](./BaseEntity.md) (10 min) - Entity basics
+7. [ValueObject](./ValueObject.md) (10 min) - Value vs Entity
+8. [AggregateRoot](./AggregateRoot.md) (15 min) - Aggregates
+9. [Value Objects Guide](./ValueObjects.md) (30 min) - Deep dive
+10. [Domain Entities Guide](./DomainEntities.md) (30 min) - Deep dive
+11. [Domain Events](./DomainEvents.md) (30 min) - Event-driven design
+12. [Phase 2 Overview](./Phase2-Overview.md) (20 min) - See it all together
 
-**⏱️ Total Time:** ~2.75 hours
+**⏱️ Total Time:** ~3.5 hours
 
 ---
 
@@ -264,14 +268,16 @@ These are the essential building blocks that everything else depends on:
 
 **Fast Track:**
 
-1. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (10 min) - **Visual architecture** 🎨
-2. [Phase 2 Overview](./Phase2-Overview.md) (10 min) - Architecture overview
-3. [Domain Entities](./DomainEntities.md) (20 min) - See the 4 entities
-4. [Value Objects](./ValueObjects.md) (20 min) - See the 4 value objects
-5. [Domain Events](./DomainEvents.md) (15 min) - Event patterns
-6. [Exceptions & Repositories](./DomainExceptionsAndRepositories.md) (15 min) - Infrastructure contracts
+1. **[Concrete Example: Create User](./ConcreteExample-CreateUser.md)** (20 min) - **See actual code** 💻
+2. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (10 min) - **Visual architecture** 🎨
+3. **[DDD Data Flow](./DDD-DataFlow.md)** (15 min) - **Request flows** 🔄
+4. [Phase 2 Overview](./Phase2-Overview.md) (10 min) - Architecture overview
+5. [Domain Entities](./DomainEntities.md) (20 min) - See the 4 entities
+6. [Value Objects](./ValueObjects.md) (20 min) - See the 4 value objects
+7. [Domain Events](./DomainEvents.md) (15 min) - Event patterns
+8. [Exceptions & Repositories](./DomainExceptionsAndRepositories.md) (15 min) - Infrastructure contracts
 
-**⏱️ Total Time:** ~1.5 hours
+**⏱️ Total Time:** ~2 hours
 
 ---
 
@@ -292,6 +298,7 @@ These are the essential building blocks that everything else depends on:
 | Events | [DomainEvents.md](./DomainEvents.md) | State change notifications |
 | Repositories | [DomainExceptionsAndRepositories.md](./DomainExceptionsAndRepositories.md) | Data access contracts |
 | **Visual Diagrams** | **[DDD-ClassDiagrams.md](./DDD-ClassDiagrams.md)** | **12 comprehensive class diagrams** |
+| **Data Flow** | **[DDD-DataFlow.md](./DDD-DataFlow.md)** | **15 end-to-end flow diagrams** ⭐ |
 
 ---
 
@@ -317,13 +324,29 @@ These are the essential building blocks that everything else depends on:
 | [DomainEvents.md](./DomainEvents.md) | ~17 KB | 6 Events | 35+ |
 | [DomainExceptionsAndRepositories.md](./DomainExceptionsAndRepositories.md) | ~21 KB | Exceptions, Repos | 42+ |
 
-### 📊 Visual Reference (1 doc)
+### 📊 Visual Reference (2 docs)
 
 | Document | Size | Topics | Diagrams |
 |----------|------|--------|----------|
 | **[DDD-ClassDiagrams.md](./DDD-ClassDiagrams.md)** | **~23 KB** | **Complete Visual Architecture** | **12** |
+| **[DDD-DataFlow.md](./DDD-DataFlow.md)** | **~32 KB** | **Data Flow & Request Lifecycle** | **20** |
 
-**What's Inside:**
+### 📝 Concrete Code Examples (1 doc)
+
+| Document | Size | Topics | Code Examples |
+|----------|------|--------|---------------|
+| **[ConcreteExample-CreateUser.md](./ConcreteExample-CreateUser.md)** | **~22 KB** | **Complete Create User Flow** | **12+ files** |
+
+**ConcreteExample-CreateUser - What's Inside:**
+- Complete step-by-step code walkthrough
+- How IDomainEvent works in practice
+- Actual code from all 9 execution steps
+- Memory state at each step
+- Visual timeline with millisecond breakdown
+- File structure mapping
+- Common questions answered
+
+**DDD-ClassDiagrams - What's Inside:**
 - Complete domain layer class diagram
 - Entity hierarchy with all members
 - Value object system visualization
@@ -332,6 +355,17 @@ These are the essential building blocks that everything else depends on:
 - Exception hierarchy
 - Integration diagrams
 - Sequence flows
+
+**DDD-DataFlow - What's Inside:**
+- Complete request lifecycle diagrams
+- Command flow (write operations)
+- Query flow (read operations)
+- Domain event flow and side effects
+- **Event handler registration & execution** ⭐ New!
+- Authentication & authorization flow
+- Multi-tenant data isolation
+- Error handling patterns
+- Performance optimizations
 
 ---
 
