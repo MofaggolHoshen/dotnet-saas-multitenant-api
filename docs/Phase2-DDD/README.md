@@ -11,6 +11,7 @@ Welcome to the core concepts documentation! This guide explains the Domain-Drive
 - [What is Domain-Driven Design?](#what-is-domain-driven-design)
 - [Core Building Blocks](#core-building-blocks)
 - [Domain Layer Components](#domain-layer-components)
+- [Visual Class Diagrams](#-visual-class-diagrams)
 - [Learning Paths](#learning-paths)
 - [Documentation Index](#documentation-index)
 - [Quick Reference](#quick-reference)
@@ -193,23 +194,69 @@ These are the essential building blocks that everything else depends on:
 
 ---
 
+## 📊 Visual Class Diagrams
+
+### **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** - Complete Visual Reference
+
+**Comprehensive Mermaid class diagrams showing the entire domain architecture:**
+
+#### **📐 12 Detailed Diagrams**
+
+1. **Complete Domain Layer Overview** - High-level architecture
+2. **Foundational Building Blocks** - BaseEntity, AggregateRoot, ValueObject, Result, Error
+3. **Entity Hierarchy** - All 4 entities with full member details
+4. **Entity Relationships (ERD)** - Database-style relationship diagram
+5. **Value Object System** - All 4 value objects with validation logic
+6. **Domain Events Architecture** - Event system with IDomainEvent
+7. **Repository Interfaces** - Data access contracts
+8. **Domain Services** - Cross-cutting concerns
+9. **Exception Hierarchy** - Domain exception tree
+10. **Complete Integration** - How everything connects
+11. **Entity Creation Flow** - Sequence diagram
+12. **Repository Flow** - Transaction and event dispatch
+
+#### **✨ Features**
+
+- ✅ **Complete Member Details** - All properties, methods, and visibility
+- ✅ **Rich Relationships** - Inheritance, composition, aggregation, dependencies
+- ✅ **Theme Compatible** - Works in both light and dark modes
+- ✅ **Interactive** - Renders in GitHub, VS Code, and Mermaid viewers
+- ✅ **Symbol Legend** - Complete reference for all diagram symbols
+- ✅ **Usage Examples** - Sequence diagrams showing real-world flows
+
+#### **🎯 Quick Navigation**
+
+| Concept | Diagram Section | Key Insights |
+|---------|----------------|--------------|
+| Foundation | Foundational Building Blocks | Base classes, Result pattern |
+| Entities | Entity Hierarchy | User, Tenant, Role, Permission |
+| Values | Value Object System | Email, Password, TenantId |
+| Events | Domain Events | Event-driven architecture |
+| Data Access | Repository Interfaces | Persistence abstractions |
+| Errors | Exception Hierarchy | Domain exception types |
+
+**👉 [View All Class Diagrams](./DDD-ClassDiagrams.md)**
+
+---
+
 ## Learning Paths
 
 ### 🎓 For Beginners (New to DDD)
 
 **Recommended Path:**
 
-1. [Result Pattern](./Result.md) (10 min) - Understand error handling
-2. [Error](./Error.md) (5 min) - Structured errors
-3. [BaseEntity](./BaseEntity.md) (10 min) - Entity basics
-4. [ValueObject](./ValueObject.md) (10 min) - Value vs Entity
-5. [AggregateRoot](./AggregateRoot.md) (15 min) - Aggregates
-6. [Value Objects Guide](./ValueObjects.md) (30 min) - Deep dive
-7. [Domain Entities Guide](./DomainEntities.md) (30 min) - Deep dive
-8. [Domain Events](./DomainEvents.md) (30 min) - Event-driven design
-9. [Phase 2 Overview](./Phase2-Overview.md) (20 min) - See it all together
+1. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (15 min) - **Visual overview** 🎨
+2. [Result Pattern](./Result.md) (10 min) - Understand error handling
+3. [Error](./Error.md) (5 min) - Structured errors
+4. [BaseEntity](./BaseEntity.md) (10 min) - Entity basics
+5. [ValueObject](./ValueObject.md) (10 min) - Value vs Entity
+6. [AggregateRoot](./AggregateRoot.md) (15 min) - Aggregates
+7. [Value Objects Guide](./ValueObjects.md) (30 min) - Deep dive
+8. [Domain Entities Guide](./DomainEntities.md) (30 min) - Deep dive
+9. [Domain Events](./DomainEvents.md) (30 min) - Event-driven design
+10. [Phase 2 Overview](./Phase2-Overview.md) (20 min) - See it all together
 
-**⏱️ Total Time:** ~2.5 hours
+**⏱️ Total Time:** ~2.75 hours
 
 ---
 
@@ -217,11 +264,12 @@ These are the essential building blocks that everything else depends on:
 
 **Fast Track:**
 
-1. [Phase 2 Overview](./Phase2-Overview.md) (10 min) - Architecture overview
-2. [Domain Entities](./DomainEntities.md) (20 min) - See the 4 entities
-3. [Value Objects](./ValueObjects.md) (20 min) - See the 4 value objects
-4. [Domain Events](./DomainEvents.md) (15 min) - Event patterns
-5. [Exceptions & Repositories](./DomainExceptionsAndRepositories.md) (15 min) - Infrastructure contracts
+1. **[DDD Class Diagrams](./DDD-ClassDiagrams.md)** (10 min) - **Visual architecture** 🎨
+2. [Phase 2 Overview](./Phase2-Overview.md) (10 min) - Architecture overview
+3. [Domain Entities](./DomainEntities.md) (20 min) - See the 4 entities
+4. [Value Objects](./ValueObjects.md) (20 min) - See the 4 value objects
+5. [Domain Events](./DomainEvents.md) (15 min) - Event patterns
+6. [Exceptions & Repositories](./DomainExceptionsAndRepositories.md) (15 min) - Infrastructure contracts
 
 **⏱️ Total Time:** ~1.5 hours
 
@@ -243,6 +291,7 @@ These are the essential building blocks that everything else depends on:
 | Email VO | [ValueObjects.md](./ValueObjects.md) | Email validation |
 | Events | [DomainEvents.md](./DomainEvents.md) | State change notifications |
 | Repositories | [DomainExceptionsAndRepositories.md](./DomainExceptionsAndRepositories.md) | Data access contracts |
+| **Visual Diagrams** | **[DDD-ClassDiagrams.md](./DDD-ClassDiagrams.md)** | **12 comprehensive class diagrams** |
 
 ---
 
@@ -267,6 +316,22 @@ These are the essential building blocks that everything else depends on:
 | [ValueObjects.md](./ValueObjects.md) | ~17 KB | 4 Value Objects | 34+ |
 | [DomainEvents.md](./DomainEvents.md) | ~17 KB | 6 Events | 35+ |
 | [DomainExceptionsAndRepositories.md](./DomainExceptionsAndRepositories.md) | ~21 KB | Exceptions, Repos | 42+ |
+
+### 📊 Visual Reference (1 doc)
+
+| Document | Size | Topics | Diagrams |
+|----------|------|--------|----------|
+| **[DDD-ClassDiagrams.md](./DDD-ClassDiagrams.md)** | **~23 KB** | **Complete Visual Architecture** | **12** |
+
+**What's Inside:**
+- Complete domain layer class diagram
+- Entity hierarchy with all members
+- Value object system visualization
+- Domain events architecture
+- Repository and service contracts
+- Exception hierarchy
+- Integration diagrams
+- Sequence flows
 
 ---
 
@@ -333,6 +398,8 @@ Domain/
 | **Repository Interfaces** | 4 | ✅ Complete |
 | **Domain Services** | 2 | ✅ Complete |
 | **📁 Total Domain Files** | **30+** | ✅ Complete |
+| **📄 Documentation Files** | **12** | ✅ Complete |
+| **📊 Total Diagrams** | **180+** | ✅ Complete |
 | **📄 Documentation Files** | **11** | ✅ Complete |
 | **📊 Total Diagrams** | **170+** | ✅ Complete |
 
