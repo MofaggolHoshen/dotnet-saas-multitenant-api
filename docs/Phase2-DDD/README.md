@@ -116,6 +116,20 @@ These are the essential building blocks that everything else depends on:
 
 ---
 
+#### 6. **[Bounded Context](./BoundedContext.md)** - Strategic DDD Pattern
+
+**What:** An explicit boundary within which a domain model is defined and applicable.
+
+**Key Concepts:**
+- Explicit context boundaries
+- Context-specific models
+- Ubiquitous language per context
+- Independent evolution
+
+**When to Use:** When designing large systems with multiple subdomains or team boundaries.
+
+---
+
 ## Domain Layer Components
 
 ### 🎯 Business Logic & Models
@@ -290,19 +304,21 @@ These are the essential building blocks that everything else depends on:
 | Immutability | [ValueObject.md](./ValueObject.md) | Equality by value |
 | Error Handling | [Result.md](./Result.md) | Success/Failure pattern |
 | Error Types | [Error.md](./Error.md) | Validation, NotFound, etc. |
+| **Bounded Context** | **[BoundedContext.md](./BoundedContext.md)** | **Strategic DDD, context boundaries** ⭐ |
 | User Entity | [DomainEntities.md](./DomainEntities.md) | Authentication, roles |
 | Tenant Entity | [DomainEntities.md](./DomainEntities.md) | Multi-tenancy |
 | Email VO | [ValueObjects.md](./ValueObjects.md) | Email validation |
 | Events | [DomainEvents.md](./DomainEvents.md) | State change notifications |
 | Repositories | [DomainExceptionsAndRepositories.md](./DomainExceptionsAndRepositories.md) | Data access contracts |
 | **Visual Diagrams** | **[DDD-ClassDiagrams.md](./DDD-ClassDiagrams.md)** | **12 comprehensive class diagrams** |
-| **Data Flow** | **[DDD-DataFlow.md](./DDD-DataFlow.md)** | **15 end-to-end flow diagrams** ⭐ |
+| **Data Flow** | **[DDD-DataFlow.md](./DDD-DataFlow.md)** | **20 end-to-end flow diagrams** |
+| **Code Example** | **[ConcreteExample-CreateUser.md](./ConcreteExample-CreateUser.md)** | **Complete walkthrough** |
 
 ---
 
 ## Documentation Index
 
-### 📘 Foundational Patterns (5 docs)
+### 📘 Foundational Patterns (6 docs)
 
 | Document | Size | Topics | Diagrams |
 |----------|------|--------|----------|
@@ -311,6 +327,7 @@ These are the essential building blocks that everything else depends on:
 | [ValueObject.md](./ValueObject.md) | ~5 KB | Equality, Immutability | Yes |
 | [Result.md](./Result.md) | ~4 KB | Error Handling | Yes |
 | [Error.md](./Error.md) | ~3 KB | Error Types | Yes |
+| **[BoundedContext.md](./BoundedContext.md)** | **~28 KB** | **Strategic DDD, Context Boundaries** | **8** |
 
 ### 📗 Comprehensive Guides (4 docs)
 
