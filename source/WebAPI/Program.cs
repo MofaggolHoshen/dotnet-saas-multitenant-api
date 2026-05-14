@@ -1,5 +1,6 @@
 using Application;
 using Infrastructure;
+using Infrastructure.Multitenancy;
 using Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,10 @@ await using (var scope = app.Services.CreateAsyncScope())
 }
 
 app.UseHttpsRedirection();
+
+// Tenant resolution middleware - must be after routing and before authorization
+app.UseTenantResolution();
+
 app.UseAuthorization();
 
 app.MapControllers();

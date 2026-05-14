@@ -18,7 +18,11 @@ public static class DependencyInjection
         var connectionString = configuration.GetConnectionString("DefaultConnection")
             ?? throw new InvalidOperationException("Missing connection string 'DefaultConnection'.");
 
-        services.TryAddScoped<ITenantContext, UnresolvedTenantContext>();
+        // Tenant context and resolution
+        services.AddScoped<TenantContext>();
+        services.AddScoped<ITenantContext>(sp => sp.GetRequiredService<TenantContext>());
+        services.AddScoped<ITenantResolver, TenantResolver>();
+        services.AddScoped<ITenantService, TenantService>();
 
         services.AddScoped<AuditableEntityInterceptor>();
         services.AddScoped<SoftDeleteInterceptor>();
