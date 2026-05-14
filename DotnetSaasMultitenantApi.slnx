@@ -18,6 +18,13 @@
   <Folder Name="/docs/Phase3-mediat-r/">
     <File Path="docs/Phase3-mediat-r/README.md" />
   </Folder>
+  <Folder Name="/docs/Phase4-ef-setup/">
+    <File Path="docs/phase4-ef-setup/1-DbContext-and-DI.md" />
+    <File Path="docs/phase4-ef-setup/2-Entity-Configurations.md" />
+    <File Path="docs/phase4-ef-setup/3-Interceptors-Repositories-UoW.md" />
+    <File Path="docs/phase4-ef-setup/4-Migrations-and-Validation.md" />
+    <File Path="docs/phase4-ef-setup/README.md" />
+  </Folder>
   <Folder Name="/source/">
     <Project Path="source/Application/Application.csproj" />
     <Project Path="source/Domain/Domain.csproj" />
