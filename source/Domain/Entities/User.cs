@@ -87,4 +87,28 @@ public sealed class User : AggregateRoot
         AddDomainEvent(new PasswordChangedEvent(Id, TenantId.Value));
         return Result.Success();
     }
+
+    public Result UpdateProfile(string fullName)
+    {
+        if (string.IsNullOrWhiteSpace(fullName))
+        {
+            return Result.Failure(Error.Validation("Full name is required."));
+        }
+
+        FullName = fullName.Trim();
+        MarkUpdated();
+        return Result.Success();
+    }
+
+    public Result RemoveRole(Guid roleId)
+    {
+        if (roleId == Guid.Empty)
+        {
+            return Result.Failure(Error.Validation("RoleId cannot be empty."));
+        }
+
+        _roleIds.Remove(roleId);
+        MarkUpdated();
+        return Result.Success();
+    }
 }

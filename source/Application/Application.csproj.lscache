@@ -105,7 +105,41 @@ Features/Auth/Commands/ResetPassword/
  ResetPasswordCommand.cs
  ResetPasswordCommandHandler.cs
  ResetPasswordCommandValidator.cs
-Features/Tenants/EventHandlers/TenantProvisionedEventHandler.cs
+Features/
+ Tenants/EventHandlers/TenantProvisionedEventHandler.cs
+ Users/Commands/AssignRole/
+  AssignRoleCommand.cs
+  AssignRoleCommandHandler.cs
+  AssignRoleCommandValidator.cs
+ Users/Commands/CreateUser/
+  CreateUserCommand.cs
+  CreateUserCommandHandler.cs
+  CreateUserCommandValidator.cs
+ Users/Commands/DeactivateUser/
+  DeactivateUserCommand.cs
+  DeactivateUserCommandHandler.cs
+  DeactivateUserCommandValidator.cs
+ Users/Commands/RemoveRole/
+  RemoveRoleCommand.cs
+  RemoveRoleCommandHandler.cs
+  RemoveRoleCommandValidator.cs
+ Users/Commands/UpdateUser/
+  UpdateUserCommand.cs
+  UpdateUserCommandHandler.cs
+  UpdateUserCommandValidator.cs
+ Users/DTOs/
+  UserDetailDto.cs
+  UserDto.cs
+  UserRoleDto.cs
+ Users/Queries/GetUserById/
+  GetUserByIdQuery.cs
+  GetUserByIdQueryHandler.cs
+ Users/Queries/GetUserRoles/
+  GetUserRolesQuery.cs
+  GetUserRolesQueryHandler.cs
+ Users/Queries/GetUsers/
+  GetUsersQuery.cs
+  GetUsersQueryHandler.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  Application.AssemblyInfo.cs
