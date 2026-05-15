@@ -63,6 +63,7 @@ Common/Interfaces/
  ICommand.cs
  ICurrentUserService.cs
  IDateTime.cs
+ IJwtTokenGenerator.cs
  IQuery.cs
  IRefreshTokenRepository.cs
  ITenantContext.cs
@@ -76,6 +77,34 @@ Common/Models/
  ValidationError.cs
 Common/Validators/PasswordValidator.cs
 DependencyInjection.cs
+Features/Auth/Commands/ChangePassword/
+ ChangePasswordCommand.cs
+ ChangePasswordCommandHandler.cs
+ ChangePasswordCommandValidator.cs
+Features/Auth/Commands/ForgotPassword/
+ ForgotPasswordCommand.cs
+ ForgotPasswordCommandHandler.cs
+ ForgotPasswordCommandValidator.cs
+Features/Auth/Commands/Login/
+ LoginCommand.cs
+ LoginCommandHandler.cs
+ LoginCommandValidator.cs
+Features/Auth/Commands/Logout/
+ LogoutCommand.cs
+ LogoutCommandHandler.cs
+ LogoutCommandValidator.cs
+Features/Auth/Commands/RefreshToken/
+ RefreshTokenCommand.cs
+ RefreshTokenCommandHandler.cs
+ RefreshTokenCommandValidator.cs
+Features/Auth/Commands/Register/
+ RegisterCommand.cs
+ RegisterCommandHandler.cs
+ RegisterCommandValidator.cs
+Features/Auth/Commands/ResetPassword/
+ ResetPasswordCommand.cs
+ ResetPasswordCommandHandler.cs
+ ResetPasswordCommandValidator.cs
 Features/Tenants/EventHandlers/TenantProvisionedEventHandler.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
