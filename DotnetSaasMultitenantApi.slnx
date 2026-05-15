@@ -25,6 +25,9 @@
     <File Path="docs/phase4-ef-setup/4-Migrations-and-Validation.md" />
     <File Path="docs/phase4-ef-setup/README.md" />
   </Folder>
+  <Folder Name="/docs/Phase5-multi-tenance/">
+    <File Path="docs/Phase5-multi-tenance/MULTITENANCY.md" />
+  </Folder>
   <Folder Name="/source/">
     <Project Path="source/Application/Application.csproj" />
     <Project Path="source/Domain/Domain.csproj" />
