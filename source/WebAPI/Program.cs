@@ -29,6 +29,7 @@ app.UseHttpsRedirection();
 // Tenant resolution middleware - must be after routing and before authorization
 app.UseTenantResolution();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -31,6 +31,7 @@ public sealed class ApplicationDbContext : DbContext, IApplicationDbContext
     public DbSet<Tenant> TenantsSet => Set<Tenant>();
     public DbSet<Role> RolesSet => Set<Role>();
     public DbSet<Permission> PermissionsSet => Set<Permission>();
+    public DbSet<RefreshToken> RefreshTokensSet => Set<RefreshToken>();
 
     IQueryable<User> IApplicationDbContext.Users => UsersSet;
     IQueryable<Tenant> IApplicationDbContext.Tenants => TenantsSet;

@@ -25,6 +25,13 @@
     <File Path="docs/phase4-ef-setup/4-Migrations-and-Validation.md" />
     <File Path="docs/phase4-ef-setup/README.md" />
   </Folder>
+  <Folder Name="/docs/Phase5-multi-tenance/">
+    <File Path="docs/Phase5-multi-tenance/README.md" />
+  </Folder>
+  <Folder Name="/docs/Phase6-auth-jwt/">
+    <File Path="docs/Phase6-auth-jwt/AUTHENTICATION.md" />
+    <File Path="docs/Phase6-auth-jwt/README.md" />
+  </Folder>
   <Folder Name="/source/">
     <Project Path="source/Application/Application.csproj" />
     <Project Path="source/Domain/Domain.csproj" />
