@@ -2,17 +2,12 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using Application.Common.Interfaces;
 using Domain.Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Infrastructure.Identity;
-
-public interface IJwtTokenGenerator
-{
-    string GenerateAccessToken(User user, IReadOnlyCollection<string> roles);
-    string GenerateRefreshToken();
-}
 
 public sealed class JwtTokenGenerator(IOptions<JwtSettings> options) : IJwtTokenGenerator
 {
